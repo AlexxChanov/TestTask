@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/monkeyBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Monkey Tresuare"
+        android:background="@drawable/btns_background"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/webViewBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Webview"
+        android:background="@drawable/btns_background"/>
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        />
+</LinearLayout>
